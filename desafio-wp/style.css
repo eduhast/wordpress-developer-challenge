@@ -1,0 +1,332 @@
+/*
+    Theme Name: Striped
+    Description: Template desenvolvido por Eduardo Campos
+    Author: Eduardo Campos
+    Author uri: https://www.linkedin.com/in/eduardo-campos20/
+    License: GPL
+    Version: 1.0 */
+
+
+html{
+     background: black;  
+  
+    }
+ /*Paginas*/
+.play-class{
+    background: black;
+    margin: 0;
+}
+
+.filmes-class{
+    margin: 0;
+    background: black;
+}
+
+.video-class{
+    margin: 0;
+    background: black;
+}
+/*Paginas*/
+
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav li:hover{
+    color: red;
+}
+
+nav a:hover{
+    color: red;
+}
+
+nav a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.itens{
+    position: absolute; 
+    right: 100px;
+    top: 32px;
+}
+.caixa{
+    position: relative; 
+}
+
+.logo{
+    position: relative;
+    width: 120px;
+    top: 18px;
+    left: 0px;
+    margin: 0 0px 0 155px;
+}
+
+main h2{
+    position: relative;
+    top:385px;
+    font-size: 100pt;
+    left: 140px;
+    color: white;
+     width: 1500px;
+   
+    
+}
+
+.borda-branca{
+    display:inline-block;
+    position: relative;
+    text-align:center;
+    top: 450px;
+    border-radius: 3pt;
+    border-color: white;
+    border-width: 1px;
+    border-style:solid;
+    background: white;
+    font-size: 20px;
+    color: #5A5A5A;
+    padding: 4px 50px;
+    margin: 0 10px 0 115px;
+    
+}
+
+.borda-preta{
+    display:inline-block;
+    position: relative;
+    text-align:center;
+    top: 450px;
+    border-radius: 3pt;
+    border-color: white;
+    border-width: 1px;
+    border-style:solid;
+    font-size: 20px;
+    color: white;
+    padding: 4px 50px;
+    margin: 0 0%;
+}
+
+
+.informacoes{
+    display:inline-block;
+    position: relative;
+    text-align:center;
+    top: 800px;
+    border-style:solid;
+    background: red;
+    font-size: 20px;
+    color: white;
+    padding: 20px 90px;
+    margin: 0px 0px 0px 150px;
+}
+
+.informacoes a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.informacoes a:hover{
+    color: white;
+}
+
+header {
+    height: 100px;
+    opacity: 1;
+    background: black;
+}
+
+main{
+    height: 1300px;
+    margin: 0;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("pexels1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.titulos{
+    position: relative;
+    top:140px;
+    font-size: 40pt;
+    left: 160px;
+    color: red;
+    width: 1000px;
+
+}
+
+.filmes-a{
+    background: black;
+    
+}
+
+.documentarios-a{
+    background: black;
+    margin: -250px 0;
+}
+.series-a{
+    background: black;
+    margin: -250px 0;
+}
+.imagens-filmes{
+    margin: 0 145px;
+    padding: 200px 0;
+
+}
+.imagens-filmes li{
+    display:inline-block;
+    margin: 0 20px;
+    border-radius: 3px;
+    vertical-align: top;
+
+
+}
+.descricao-filmes{
+    font-size: 29pt;
+    color: white;
+    text-align: left;
+    line-height: 1;
+    width: 270px;
+}
+.botoes{
+    border-radius: 3pt;
+    width: 170px;
+    border-color: white;
+    border-width: 1px;
+    border-style:solid;
+    font-size: 20px;
+    color: white;
+    padding: 2px 64px;
+    margin: 20px 0;
+}
+
+footer{
+    margin: 200px 0 0 0;
+    background: #121212;
+    height: 380px;
+}
+
+footer h2{
+    padding: 90px 0 40px 0;
+    width: 110%;
+}
+footer p{
+    color: white;
+    font-size: 22px;
+    margin: 0 150px;
+  
+}
+
+.link-filme{
+    position:relative;
+    top:100px;
+    left:0;
+    width: 2550px;
+
+}
+.scrollspy{
+    position: relative;
+    overflow: auto;
+    height: 800px;
+}
+.container{
+    position: relative;
+    bottom: 100px;
+    left: 570px;
+ 
+}
+
+.filmes-2 h2{
+    position: relative;
+    top:220px;
+    font-size: 30pt;
+    left: 150px;
+    color: red;
+    width: 500px;
+}
+
+.filmes-2 p{
+    position: relative;
+    top:220px;
+    font-size: 15pt;
+    left: 150px;
+     margin: 0 1600px 0 0;
+    color: white;
+}
+
+
+.div-filmes li{
+    display:inline-block;
+    margin: 0 20px;
+
+    border-radius: 3px;
+    vertical-align: top;
+
+}
+
+
+.div-descricao{
+    font-size: 28pt;
+    color: white;
+    text-align: left;
+    line-height: 1;
+    width: 270px;
+}
+
+.div-botoes{
+
+    border-radius: 3pt;
+    width: 170px;
+    border-color: white;
+    border-width: 1px;
+    border-style:solid;
+    font-size: 20px;
+    color: white;
+    padding: 2px 64px;
+    margin: 20px 0;
+}
+
+.video-titulo{
+    height: 1500px;
+    background: black;
+}
+.video-titulo h2{
+    font-size: 45pt;
+    color: white;
+    position: relative;
+    top:240px;
+    left: 440px;
+    width: 1500px;
+}
+
+.video-titulo ul{
+    position: relative;
+    bottom:350px;
+    left: 300px;
+     width: 1500px;
+}
+
+
+@media(max-width: 768px){
+main, header{
+   width: 500%;
+}
+}
+
+@media(max-width: 768px){
+    .filmes-a, .documentarios-a, .series-a{
+       width: 500%;
+    }
+    }
+
+    @media(min-width: 1920px){
+        .filmes-a, .documentarios-a, .series-a{
+           width: 120%;
+        }
+        }
